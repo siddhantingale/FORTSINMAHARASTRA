@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body{
+            background-image: url(img/3.jpg);
+            background-size: 100%;
+        }
+        .dropdown { 
+            position: relative;
+            display: inline-block;
+        }
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: rgba(30, 228, 202, 0.555);
+            min-width: 160px;
+            box-shadow: 5px 6px 8px 5px rgb(195, 50, 120) ;
+            z-index: 2;
+            border: 1px solid;
+        }
+        .dropdown:hover .dropdown-content{
+            display: block;
+        }
+    </style>
+
+</head>
+<body background="img/3.jpg">
+    <h1 align="center">WELCOME</h1><br>
+    <p> <h2>Forts Of Maharashtra: Overview</h2>
+        Some of the famous forts in Maharashtra include Raigad Fort, Shivneri Fort,Torna Fort, 
+        Harehareshawer Fort, Pratapgad Fort, Rajgad Fort and many more.
+        Known for its rich history and the land of Chhatrapati Shivaji Maharaj, 
+        the forts in Maharashtra represent the glorious past of the Maratha Empire. 
+        There are around 350 forts in Maharashtra of different dynasties, trading centres,
+         Marathas, and Mughals. Many of the forts in Maharashtra are located in the Sahyadri 
+         mountains i.e. Western Ghats in Maharashtra. The Forts in Maharashtra offer breathtaking
+          views surrounding the landscape and are a popular tourist attraction that attracts history 
+          enthusiasts, trekkers and nature lovers. 
+        <h3>To Show The Picturre Of FORTS Click on 
+             <div class="dropdown" style="color: rgb(228, 45, 13);">
+            <span>FORTS</span>
+            <div class="dropdown-content" height="500px" width="500px">
+                <a href="img/1.jpg">Raigad</a><br>
+                <a href="img/3.jpg">Rajgad</a><br>
+                <a href="img/4.jpeg">Panhala</a><br>
+                <a href="img/shivneri.jpg">Shivneri</a><br>
+                <a href="img/harehareshawre.jpeg">Harehareshawer</a><br>
+                <a href="img/pratap.jpg">Pratapgad</a><br>
+            </div>
+           </div></h3></p>
+</body>
+</html>
